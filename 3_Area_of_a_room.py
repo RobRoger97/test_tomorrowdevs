@@ -6,4 +6,4 @@ larghezza = float(input("Inserire la larghezza in metri: "))
 area = lunghezza*larghezza
 
 #Stampa il risultato
-print("L'area della stanza è ", area, "m^2")
+print("L'area della stanza è ", area, " m^2")

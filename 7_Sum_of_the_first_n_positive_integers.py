@@ -5,4 +5,4 @@ n = int(input("Inserire un valore intero positivo di n: "))
 somma = n*(n+1)/2
 
 #Stampa risultato
-print("La somma dei prima", n ,"numeri positivi interi è: ", somma)
+print("La somma dei prima ", n ," numeri positivi interi è: ", somma)
