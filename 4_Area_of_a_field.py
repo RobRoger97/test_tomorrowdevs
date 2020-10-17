@@ -9,4 +9,4 @@ larghezza = float(input("Inserire la larghezza del campo in piedi: "))
 acri = (lunghezza*larghezza)/sqr_ft_acre
 
 #Stampa il risultato
-print("L'area del campo è ", acri, "acri")
+print("L'area del campo è ", acri, " acri")

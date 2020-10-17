@@ -11,5 +11,5 @@ tip = cost*Tip_rate
 total = cost + tax + tip
 
 #Stampa il risultato
-print("La tassa è %.2f e la mancia è %.2f, quindi il totale è %.2f." % (tax, tip, total))
+print("La tassa è %.2f e la mancia è %.2f, quindi il totale è %.2f. " % (tax, tip, total))
     
