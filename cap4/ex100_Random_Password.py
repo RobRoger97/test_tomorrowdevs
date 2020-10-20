@@ -20,5 +20,6 @@ def main():
 #display the result
     print(random_Pass())
 
+# Call the main function if the file has not been imported
 if __name__ == "__main__":
-        main()
+    main()
