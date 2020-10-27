@@ -19,9 +19,7 @@ def newalgorithm(t):
             values.append(z)
         elif t=='+' or t=='-' or t=='*' or t=='/' or t=='^':
             right = values.pop(len(values)-1) #Remove an item from the end of values and call it right
-            print(right)
             left = values.pop(len(values)-1) #Remove an item from the end of values and call it left
-            print(left)
             #Compute the result of applying the operator to left and right
             if t=='+':
                 result = left+right
