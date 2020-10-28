@@ -1,8 +1,7 @@
 #read a message from the user
-mess = input("Enter a message: ")
-#the program handles both uppercase and lowercase letters.
-n = mess.upper()
-m = list(n)
+mess = input("Enter a message: ").upper()
+
+m = list(mess)
 
 #empty list
 string = []
