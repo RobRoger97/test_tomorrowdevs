@@ -23,5 +23,5 @@ def main():
     print(flatten([]))
 
 
-if __name__ == "__main__":
-    main()
+
+main()
