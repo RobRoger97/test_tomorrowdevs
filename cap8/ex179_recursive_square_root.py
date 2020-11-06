@@ -1,5 +1,5 @@
 #define a recursive square root function
-def recursive_sr(n,guess):
+def recursive_sr(n,guess=1.0):
     if abs((guess**2)-n)<(10**(-12)):#The base case occurs when guess2 is within 10^(−12) of n.
         return guess
     else:
@@ -8,7 +8,7 @@ def recursive_sr(n,guess):
 def main():
     #Read a number, x, entered by the user
     x = int(input("Entered a number: "))
-    print("Approximation:",recursive_sr(x,1.0))
+    print("Approximation:",recursive_sr(x))
 
 #call the main function
 main()
