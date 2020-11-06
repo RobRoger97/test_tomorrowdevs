@@ -1,4 +1,3 @@
-from ex184_flatten_a_list import flatten
 #define a recursive function that decompresses a run-length encoded list.
 def rl_dec(rl):
     if rl==[]:
@@ -6,7 +5,7 @@ def rl_dec(rl):
     else:
         char = rl[0]
         n = rl[1]
-        return [char]* n + flatten(rl_dec(rl[2:]))
+        return [char]* n + (rl_dec(rl[2:]))
 
 #define main 
 def main():
