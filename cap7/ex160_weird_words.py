@@ -4,7 +4,7 @@ lis_right=[]
 #list of words that don't follow the rule
 lis_wrong=[]
 
-word_file = "C:/Users/Roberta/Desktop/Python/cicci.txt"
+word_file = "C:/Users/Roberta/Desktop/Python/words.txt"
 inf = open(word_file, "r")
 
 line = inf.read()
