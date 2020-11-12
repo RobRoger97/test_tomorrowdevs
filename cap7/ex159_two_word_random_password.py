@@ -1,6 +1,6 @@
 from random import randrange
 
-word_file = "C:/Users/Roberta/Desktop/Python/cicci.txt"
+word_file = "C:/Users/Roberta/Desktop/Python/words.txt"
 
 # Read all of the words from the file, only keeping those between 3 and 7 letters in length,
 # and store them in a list
